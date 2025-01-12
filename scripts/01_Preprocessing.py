@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 # Set the base directory path
-base_dir = "/Users/cynthianyongesa/Desktop/Desktop - Cynthia's Macbook Pro/DATA/6_VR_FATIGUE"
-file_path = os.path.join(base_dir, "RAW_NASA_DATA_2025-01-10_1335.xls")
+base_dir = "ENTER/FILE/PATH"
+file_path = os.path.join(base_dir, "RAW_DATA.xls")
 
 # Load the Excel file with multiple sheets
 excel_data = pd.ExcelFile(file_path)
