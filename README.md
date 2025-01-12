@@ -19,9 +19,10 @@ This project investigates the cognitive and physical effects of VR and exercise 
    `pip install -r requirements.txt`
 
 3. Run analysis notebooks in order:  
-   - `01_data_cleaning.ipynb`  
-   - `02_eda_visualization.ipynb`  
-   - `03_statistical_analysis.ipynb`
+   - `01_Preprocessing.ipynb`
+   - `02_statistical_analysis.ipynb`  
+   - `03_eda_visualization.ipynb`  
+   
 
 ## 📜 License
 Distributed under the MIT License.
